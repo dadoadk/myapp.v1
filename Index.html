@@ -1,0 +1,21 @@
+<html ng-app>
+	<head>
+		<link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.css">
+		<script src="assets/angular/angular.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="page-header">
+				<h3>My App</h3>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<button class="btn btn-lg btn-primary" ng-click="count = count + 1" ng-init="count=0">Click</button>
+				</div>
+				<div class="col-lg-6">
+					<h1>{{count}}</h1>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
